@@ -136,10 +136,6 @@ for (u = 0; u < arrowfunss.length; u++) {
 
 
 
-
-
-
-
 let arroffunctionn = (start, end) => start + end;
 
 console.log(arroffunctionn(starting,))
@@ -185,7 +181,8 @@ function returning(terarninging) {
 
 let arrayretarning = [54, 7, 8, , 2, 6, 5, 8, 7, 1, 5, 6, 8, 7, 454, 865,]
 
-arrayretarning.reverse()
+arrayretarning.sort();
+arrayretarning.reverse();
 
 
 
@@ -208,19 +205,31 @@ function datedaiming(datetiming) {
 
 }
 
+const secunddd = 454548;
 
-let d = new Date()
+const secund=secunddd *60;
+const minute = secund * 60;
+const hour = minute * 60;
+
+
+
+const d = new Date();
+let timing = Math.round(d.getTime() / secund);
+let timingg = Math.round(d.getTime() / minute);
+let timinggg = Math.round(d.getTime() / hour);
 
 
 
 
 
-// let objtimig = {
-//     hour: x1,
-//     minutes: z,
-//     seconds: y
-// } 
+ 
+ const timeobj ={
+secundTime:timing,
+minuteTiming:timingg,
+houseTiming:timinggg,
 
+
+ }
 
 
 // amas raac sheexeba guram yvela metodic vcade magram tviton ragac rendom cifri rogor gadmoviyvano wamebit da wudebit. ver gavakete. getmetodis an set metodis ver gavakete evranairad
