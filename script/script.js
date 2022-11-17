@@ -202,3 +202,8 @@ let unikalu = [45, 8, 6, 2, 45, 45, 6, 78, 9, 9, 9, 8, 3, 2,]
 let unikalnumbers = new Set(unikalu);
 
 // imedia sworad aris gaketebuli rac ro gavakete umetesac vsercahvdi vedzebdi w3school-ze
+
+
+
+
+let asasasasasasasas=4564564646534231;
